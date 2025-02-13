@@ -20,6 +20,11 @@
     ],
     "paths": {
       "@/*": ["./*"],
+      "@fonts/*": ["./fonts/*"],
+      "@constants/*": ["./constants/*"],
+      "@utils/*": ["./utils/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@layouts/*": ["./layouts/*"],
       "@components/*": ["./components/*"]
     },
     "types": ["@playwright/test"]
