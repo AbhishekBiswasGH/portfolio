@@ -2,6 +2,7 @@
 import { geist } from "@fonts/geist";
 
 // components
+import Footer from "@/layouts/footer/Footer";
 import Header from "@layouts/header/Header";
 
 // styles
@@ -27,6 +28,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

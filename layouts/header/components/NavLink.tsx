@@ -18,6 +18,7 @@ export default function NavLink({
   return (
     <Link
       href={path}
+      prefetch={false}
       title={title}
       className={`relative pb-px ${isFirst ? "pr-4 pl-7" : isLast ? "pr-7 pl-4" : "px-4"} ${isActive ? "text-accent" : "hover:text-accent"} cursor-pointer transition-all duration-300`}
     >

@@ -2,6 +2,9 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import WhatsApp from "@/icons/whatsApp";
 
+// constants
+import { GITHUB, LINKEDIN } from "./info/social";
+
 // utils
 import {
   createMailUrl,
@@ -11,14 +14,10 @@ import {
 // types
 import { type ContactInfo } from "@/types/contact";
 
-export const countryCode: number = 91;
-export const mobileNumber: number = 8013623123;
-export const mail: string =
+export const COUNTRY_CODE: number = 91;
+export const MOBILE_NUMBER: number = 8013623123;
+export const MAIL: string =
   "abhishek.biswas.mail@gmail.com";
-export const gitHub: string =
-  "https://github.com/AbhishekBiswasGH";
-export const linkedIn: string =
-  "https://linkedin.com/in/abhishek-biswas-ld";
 
 export const CONTACT_HEADING: string = "Delivering results";
 export const CONTACT_ACHIEVEMENTS: string[] = [
@@ -30,8 +29,8 @@ export const CONTACT_PERSONAL_INFO: ContactInfo[] = [
   {
     label: "WhatsApp",
     url: createWhatsAppUrl({
-      countryCode,
-      number: mobileNumber
+      countryCode: COUNTRY_CODE,
+      number: MOBILE_NUMBER
     }),
     icon: (
       <WhatsApp
@@ -43,7 +42,7 @@ export const CONTACT_PERSONAL_INFO: ContactInfo[] = [
   {
     label: "Mail",
     url: createMailUrl({
-      mail
+      mail: MAIL
     }),
     icon: (
       <Mail
@@ -56,7 +55,7 @@ export const CONTACT_PERSONAL_INFO: ContactInfo[] = [
 export const CONTACT_SOCIAL_INFO: ContactInfo[] = [
   {
     label: "GitHub",
-    url: gitHub,
+    url: GITHUB,
     icon: (
       <Github
         width={15}
@@ -66,7 +65,7 @@ export const CONTACT_SOCIAL_INFO: ContactInfo[] = [
   },
   {
     label: "LinkedIn",
-    url: linkedIn,
+    url: LINKEDIN,
     icon: (
       <Linkedin
         width={15}

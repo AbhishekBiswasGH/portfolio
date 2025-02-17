@@ -3,8 +3,8 @@ export default function WhatsApp({
   height,
   className
 }: {
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
   className?: string;
 }) {
   return (

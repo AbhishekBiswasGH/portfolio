@@ -14,11 +14,6 @@ export default function Header() {
         <Logo />
         <NavBar />
         <NavDownloadResume />
-        {/* <div
-          className={`absolute top-0 flex w-device justify-center *:w-full *:max-w-extent`}
-        >
-          <div className={"h-16"}></div>
-        </div> */}
       </div>
     </header>
   );

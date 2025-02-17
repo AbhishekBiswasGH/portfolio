@@ -18,7 +18,7 @@ import Link from "next/link";
 export default function NavMobile({
   currentPath
 }: {
-  currentPath: string;
+  currentPath: string | null;
 }) {
   return (
     <Drawer direction={"top"}>

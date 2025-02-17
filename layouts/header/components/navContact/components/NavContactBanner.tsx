@@ -7,7 +7,7 @@ export default function NavContactBanner() {
       <Image
         src={"/images/contact-banner.webp"}
         alt={"contact banner"}
-        width={200}
+        width={100}
         height={500}
         decoding="async"
         unoptimized
