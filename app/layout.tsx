@@ -22,9 +22,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${geist.sans.variable}`}
+    >
       <body
-        className={`${geist.sans.variable} ${geist.mono.variable} overflow-x-hidden bg-matte text-snow antialiased sm:bg-latex`}
+        className={`overflow-x-hidden bg-matte font-sans text-snow antialiased sm:bg-latex`}
       >
         <Header />
         {children}

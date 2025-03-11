@@ -10,9 +10,10 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
+  DrawerDescription,
   DrawerTitle,
   DrawerTrigger
-} from "@/components/ui/Drawer";
+} from "@/components/ui/drawer";
 import Link from "next/link";
 
 export default function NavMobile({
@@ -39,9 +40,10 @@ export default function NavMobile({
         </button>
       </DrawerTrigger>
       <DrawerContent
-        className={`top-0 mt-0 h-fit min-w-fit gap-0 rounded-none border-none bg-transparent p-0 outline-none`}
+        className={`top-0 -mt-14 h-fit min-w-fit gap-0 rounded-none border-none bg-transparent p-0 outline-none`}
       >
         <DrawerTitle className="hidden" />
+        <DrawerDescription className="hidden" />
         <section className="grid grid-cols-1 rounded-b-3xl border border-snow/10 bg-matte p-6 pt-3 pb-5">
           <DrawerClose asChild>
             <Link

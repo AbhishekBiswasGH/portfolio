@@ -9,7 +9,7 @@ import HomepageGridSummary from "./summary/HomepageGridSummary";
 
 export default function HomepageGrid() {
   return (
-    <div className="sm:grid-row-3 grid grid-cols-2 *:min-h-40 *:max-sm:min-h-40 sm:grid-cols-4 sm:gap-3.5 sm:pt-8">
+    <div className="sm:grid-row-3 grid grid-cols-2 px-4 pb-14 *:min-h-40 *:max-sm:min-h-40 sm:grid-cols-4 sm:gap-3.5 sm:px-12 sm:pt-15 sm:pb-20 lg:px-12">
       <HomepageGridSummary />
       <HomepageGridProject />
       <HomepageGridLeetcode />

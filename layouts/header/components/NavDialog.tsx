@@ -2,9 +2,10 @@
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogTitle,
   DialogTrigger
-} from "@/components/ui/Dialog";
+} from "@/components/ui/dialog";
 
 // types
 import { type ReactNode } from "react";
@@ -36,6 +37,7 @@ export default function NavDialog({
         className={`min-w-fit gap-0 rounded-none border-none bg-transparent p-0 outline-none`}
       >
         <DialogTitle className="hidden" />
+        <DialogDescription className="hidden" />
         {content}
       </DialogContent>
     </Dialog>

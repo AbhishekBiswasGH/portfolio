@@ -1,12 +1,21 @@
 {
   "cSpell.words": [
     "Abhishek",
+    "balloondekor",
     "Biswas",
+    "CATIA",
     "commitlint",
+    "dassault",
+    "eventzz",
+    "Fiverr",
     "Giftlaya",
     "Kolkata",
     "Leetcode",
+    "Upwork",
     "vaul",
-    "vitest"
-  ]
+    "vitest",
+    "webdenso"
+  ],
+  "reactSnippets.settings.importReactOnTop": false,
+  "reactSnippets.settings.prettierEnabled": true
 }
